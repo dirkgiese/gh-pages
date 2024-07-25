@@ -1,0 +1,25 @@
+.dgi__brand {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.dgi__brand--item {
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dgi__brand--item img {
+  width: 80px;
+  height: auto;
+}
+.dgi__brand--item img.css3 {
+  width: 60px !important;
+}
+.dgi__brand--text {
+  text-align: center;
+}
+/*# sourceMappingURL=brand.css.map */

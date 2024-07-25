@@ -1,0 +1,23 @@
+.dgi__header {
+  display: flex;
+  flex-direction: column;
+}
+.dgi__header-content p {
+  padding-block: 1em;
+}
+@media (min-width: 640px) {
+  .dgi__header {
+    flex-direction: row;
+    gap: 40px;
+  }
+  .dgi__header-image {
+    width: 50%;
+  }
+  .dgi__header-content {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+/*# sourceMappingURL=header.css.map */
