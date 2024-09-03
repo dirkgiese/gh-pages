@@ -1,4 +1,5 @@
 export {default as Article} from './article/Article';
+export {default as Project} from './project/Project';
 export {default as Brand} from './brand/Brand';
 export {default as Cta} from './cta/Cta';
 export {default as Feature} from './feature/Feature';

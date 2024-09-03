@@ -1,17 +1,15 @@
-import { useState } from 'react'
+//import { useState } from 'react'
 import './App.css'
-
-import {Article, Brand, Cta, Navbar, Feature } from './components/index.jsx';
-import {Blog, Features, Footer, Header, Possibility, WhatGPT3 } from './containers/index.jsx';
+import { Brand, Navbar } from './components/index.jsx';
+import {Projects, Footer, Header } from './containers/index.jsx';
 
 function App() {
-
   return (
       <div className="App gradient__bg">
           <Navbar />
           <Header />
           <Brand/>
-          <Blog />
+          <Projects />
           <Footer />
       </div>
   )

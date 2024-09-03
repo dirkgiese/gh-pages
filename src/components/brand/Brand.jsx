@@ -1,4 +1,3 @@
-import React from 'react'
 import {react, vite, html, css, js} from './import.js'
 import  './brand.css'
 const Brand = () => {
@@ -20,10 +19,15 @@ const Brand = () => {
                 <div className="dgi__brand--item">
                     <img src={js} alt="js logo" width="100"/>
                 </div>
+                <div className="dgi__brand--text">
+                    <p>
+                        Die Webentwicklung ist eine ziemliche Herausforderung.
+                        Wenn man erst einmal angefangen hat, weiß man nie,
+                        wie oft man von Technologie zu Technologie springen wird.
+                    </p>
+                </div>
             </div>
-            <div className="dgi__brand--text gradient__text">
-                usw.
-            </div>
+
         </div>
     )
 }
