@@ -1,4 +1,4 @@
-import {projects}  from "../../constants/constants.js";
+import {projects, webs}  from "../../constants/constants.js";
 import './project.css'
 const Project = () => {
 
@@ -21,6 +21,13 @@ const Project = () => {
                     </ul>
                 </div>
             ))}
+            <div className="dgi_project-grid">
+                {webs.map((w,i)=>{
+                    <div key={w.stars}>
+                        <h3>{w.name}</h3>
+                    </div>
+                })}
+            </div>
         </div>
     )
 }

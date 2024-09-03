@@ -1,0 +1,100 @@
+{
+    "projects": [
+        {
+            "name": "Hotel Wellnessgarten",
+            "projektart": "Basic",
+            "url": "https://www.wellness-hotel-tennis.de/",
+            "online": "15.01.2024",
+            "jahr": "2024",
+            "img": "",
+            "stars": 3
+        },{
+            "name": "Landhaus Hotel Sommerau",
+            "projektart": "Basic",
+            "url": "https://www.landhaus-sommerau.de/",
+            "online": "27.01.2025",
+            "jahr": "2024",
+            "img": "",
+            "stars": 3
+        },{
+            "name": "Leinsweiler Hof",
+            "projektart": "Komfort",
+            "url": "https://www.leinsweilerhof.de",
+            "online": "27.01.2025",
+            "jahr": "2024",
+            "img": "",
+            "stars": 3
+        }, {
+            "name": "Hotel Restaurant Adler Oberstaufen",
+            "projektart": "Komfort",
+            "url": "https://adler-oberstaufen.de/",
+            "online": "27.01.2025",
+            "jahr": "2024",
+            "img": "p1.png",
+            "stars": 3
+        },{
+            "name": "Eibsee Hotel",
+            "projektart": "Komfort",
+            "url": "https://www.eibsee-hotel.de/",
+            "online": "08.01.2024",
+            "jahr": "2024",
+            "img": "",
+            "stars": 3
+        },{
+            "name": "Posthotel Erlerwir",
+            "projektart": "Komfort",
+            "url": "https://www.posthotel-erlerwirt.at",
+            "online": "04.10.2022",
+            "jahr": "2022",
+            "img": "./img/erlerwirt.jpg",
+            "stars": 3
+        },{
+            "name": "Gstaaderhof",
+            "projektart": "Komfort",
+            "url": "https://www.gstaaderhof.ch",
+            "online": "17.08.2022",
+            "jahr": "2022",
+            "img": "./img/gstaderhof.jpg",
+            "stars": 3
+        },{
+            "name": "Hotel Restaurant St Peter",
+            "projektart": "Basic",
+            "url": "https://www.sonne-schwarzwald.de",
+            "online": "18.10.2022",
+            "jahr": "2022",
+            "img": "",
+            "stars": 3
+        },{
+            "name": "Taunus Tagungshotel",
+            "projektart": "Basic",
+            "url": "https://www.taunustagungshotel.de",
+            "online": "",
+            "img": "p1.png",
+            "stars": 3
+        },{
+            "name": "Hartungs Hoteldorf",
+            "projektart": "Komfort",
+            "url": "https://www.hartungs-hoteldorf.de/",
+            "online": "01.08.2022",
+            "jahr": "2022",
+            "img": "./img/hartungs.jpg",
+            "stars": 3
+        },{
+            "name": "Kurpark Hotel Zinnowitz",
+            "projektart": "Basic",
+            "url": "https://www.zinnowitz-hotel.de",
+            "online": "09.11.2021",
+            "jahr": "2021",
+            "img": "./img/zinnowitz.jpg",
+            "stars": 3
+        },{
+            "name": "Lumbergerhof",
+            "projektart": "Komfort",
+            "url": "https://www.lumbergerhof.at",
+            "online": "15.01.2022",
+            "jahr": "2022",
+            "img": "./img/lumbergerhof.jpg",
+            "stars": 3
+        }
+    ]
+  }
