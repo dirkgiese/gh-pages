@@ -1,1 +1,72 @@
+.toggle {
+  cursor: pointer;
+  display: inline-flex;
+  gap: 8px;
 
+  &-switch {
+    display: inline-block;
+    background: fade(white, 25%);
+    border-radius: 16px;
+    width: 60px;
+    height: 24px;
+    position: relative;
+    vertical-align: middle;
+    transition: background 0.25s;
+
+    &:before,
+    &:after {
+      content: "";
+    }
+
+    &:before {
+      display: block;
+      background: linear-gradient(to bottom, #fff 0%, rgba(0,0,0,.01) 100%);
+      border-radius: 50%;
+      box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.25);
+      width: 16px;
+      height: 16px;
+      position: absolute;
+      top: 4px;
+      left: 4px;
+      transition: left 0.25s;
+    }
+
+    .toggle:hover &:before {
+      background: linear-gradient(to bottom, #fff 0%, rgba(0,0,0,.1) 100%);
+      box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.5);
+    }
+  }
+  &-checkbox {
+    position: absolute;
+    visibility: hidden;
+    &:checked {
+      ~ .toggle {
+        .toggle-switch {
+          background: fade(white, 15%);
+          &::before {
+            left:38px;
+          }
+        }
+        .toggle-label {
+          background: var(--gradient-text);
+          background-clip: text;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+        }
+      }
+      ~ .dgi__project-card:not([data-category='Komfort']) {
+          display: none;
+        }
+    }
+  }
+  &-label {
+    margin-left: 5px;
+    position: relative;
+    top: 2px;
+  }
+  .checkbox {
+    //height:0;
+    //width:0;
+    //visibility: hidden;
+  }
+}

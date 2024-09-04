@@ -5,7 +5,7 @@ export const projects = [
     url: "https://www.landhaus-sommerau.de/",
     online: "27.01.2025",
     jahr: "2024",
-    img: "/gh-pages/public/img/sommerau.webp",
+    img: "/img/sommerau.webp",
     stars: 3,
   },
   {
