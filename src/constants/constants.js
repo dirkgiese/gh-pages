@@ -5,8 +5,7 @@ export const projects = [
     url: "https://www.landhaus-sommerau.de/",
     online: "27.01.2025",
     jahr: "2024",
-    img: "/img/sommerau.webp",
-    stars: 3,
+    img: "./img/sommerau.webp",
   },
   {
     name: "Leinsweiler Hof",
@@ -14,7 +13,7 @@ export const projects = [
     url: "https://www.leinsweilerhof.de",
     online: "27.01.2025",
     jahr: "2024",
-    img: "",
+    img: "./img/leinsweiler.png",
     stars: 3,
   },
   {

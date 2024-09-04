@@ -2,7 +2,7 @@ import {react, vite, html, css, js} from './import.js'
 import  './brand.css'
 const Brand = () => {
     return (
-        <div>
+        <div id="brands">
             <div className="dgi__brand section__padding">
                 <div className="dgi__brand--item">
                     <img src={react} alt="react logo" width="100"/>

@@ -64,9 +64,67 @@
     position: relative;
     top: 2px;
   }
-  .checkbox {
-    //height:0;
-    //width:0;
-    //visibility: hidden;
+}
+
+.dgi__project {
+  &-grid {
+    display: grid;
+    gap: 1em;
+    margin: 2em 0;
+  }
+  &-year {
+    position: absolute;
+    inset: auto 0 0 auto  ;
+    padding: 4px 12px;
+    background: fade(white, 30%);
+    color: black;
+    font-size: .75em;
+    border-radius: 8px 0 0 0;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, .5);
+    box-sizing: border-box;
+  }
+  &-card {
+    position: relative;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    overflow: hidden;
+  }
+  &-image {
+    position: relative;
+    &::after {
+      content:"";
+      position: absolute;
+      inset:auto 0 0 0;
+      height: 25%;
+      background: linear-gradient(0deg, rgba(0,0,0,1) 0,  rgba(0,0,0,0) 100%);
+    }
+  }
+  &-info {
+    line-height: 1;
+    padding:1em;
+    position: relative;
+    h3 {
+      color: var(--color-text);
+      margin:0 0 8px 0;
+    }
+    p {
+      margin:0;
+      padding:8px 0;
+      color: rgba(255, 255, 255, 0.75);
+    }
+    a {
+      display: inline-flex;
+      flex-wrap: wrap;
+      align-items: center;
+      font-size: 0.85em;
+      color: var(--color-subtext);
+      gap:8px;
+    }
   }
 }
+

@@ -12,16 +12,13 @@ const Navbar = () => {
                     <a href="#Home">Home</a>
                 </li>
                 <li>
-                    <a href="#gpt3">What is GPT3</a>
+                    <a href="#brands">Technologie</a>
                 </li>
                 <li>
-                    <a href="#open_ai">Open AI</a>
+                    <a href="#projects">Projekte</a>
                 </li>
                 <li>
-                    <a href="#Home">Case Studies</a>
-                </li>
-                <li>
-                    <a href="#Home">Features</a>
+                    <a href="#footer">Kontakt</a>
                 </li>
             </ul>
         </>
@@ -37,10 +34,6 @@ const Navbar = () => {
                 <nav className="dgi__links">
                    <Menu />
                 </nav>
-                <div className="dgi__sign">
-                    <p>Sign in</p>
-                    <button type="button">Sign up</button>
-                </div>
             </div>
             <div className="dgi__menu">
                 {toggleMenu

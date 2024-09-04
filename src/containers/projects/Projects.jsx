@@ -3,7 +3,7 @@ import './projects.css';
 const Projects = () => {
     
     return (
-        <div className="dgi__projects section__padding">
+        <div className="dgi__projects section__padding" id="projects">
             <div className="dgi__projects-heading">
                 <h2 className="dgi__projects-header gradient__text ">
                     kleiner Auszug an Projekten:
@@ -15,9 +15,7 @@ const Projects = () => {
                     firmeneigene CMS. Hierfür verwende ich HTLM, CSS (Less), JavaScript, XML und XSL.
                 </p>
             </div>
-            <div className="dgi__projects-body">
-                <Project/>
-            </div>
+            <Project/>
         </div>
     )
 }
