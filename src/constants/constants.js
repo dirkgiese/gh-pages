@@ -35,7 +35,7 @@ export const projects = [
     stars: 3,
   },
   {
-    name: "Posthotel Erlerwir",
+    name: "Posthotel Erlerwirt",
     projektart: "Komfort",
     url: "https://www.posthotel-erlerwirt.at",
     online: "04.10.2022",
@@ -53,7 +53,7 @@ export const projects = [
     stars: 3,
   },
   {
-    name: "Hotel Restaurant St Peter",
+    name: "Hotel Restaurant St.Peter",
     projektart: "Basic",
     url: "https://www.sonne-schwarzwald.de",
     online: "18.10.2022",
