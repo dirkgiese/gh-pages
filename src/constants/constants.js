@@ -1,5 +1,4 @@
-export const projects = [
-  {
+export const projects = [{
     name: "Eibsee Hotel",
     projektart: "Komfort",
     url: "https://www.eibsee-hotel.de/",
@@ -54,7 +53,7 @@ export const projects = [
     online: "17.08.2022",
     jahr: "2022",
     img: "./img/gstaader.webp",
-  }, ,
+  },
   {
     name: "Hartungs Hoteldorf",
     projektart: "Komfort",
