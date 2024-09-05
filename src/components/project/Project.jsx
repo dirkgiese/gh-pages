@@ -10,7 +10,7 @@ const Project = () => {
           <label htmlFor="sortItems" className="toggle">
               <span className="toggle-name">Projekte:</span>
               <div className="toggle-switch"></div>
-              <span className="toggle-label">Komfort</span>
+              <span className="toggle-label"> nur Komfort anzeigen</span>
           </label>
 
           {projects.map((p, i) => (
@@ -28,7 +28,7 @@ const Project = () => {
                           <CiLink color="white" size="1em"/>{p.url}
                       </a>
                       <p>
-                          online seit: <span>{p.online}</span>
+                          Projektart: {p.projektart}, online seit: <span>{p.online}</span>
                       </p>
 
                   </div>

@@ -2,6 +2,7 @@
   cursor: pointer;
   display: inline-flex;
   gap: 8px;
+  grid-column: 1 / -1;
 }
 .toggle-switch {
   display: inline-block;
@@ -59,7 +60,7 @@
 }
 .dgi__project-grid {
   display: grid;
-  gap: 1em;
+  gap: 1rem;
   margin: 2em 0;
 }
 .dgi__project-year {
@@ -86,6 +87,11 @@
 }
 .dgi__project-image {
   position: relative;
+}
+.dgi__project-image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
 }
 .dgi__project-image::after {
   content: "";
@@ -115,5 +121,17 @@
   font-size: 0.85em;
   color: var(--color-subtext);
   gap: 8px;
+}
+@media (min-width: 640px) {
+  .dgi__project-grid {
+    gap: 1.5rem;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 960px) {
+  .dgi__project-grid {
+    gap: 2rem;
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 /*# sourceMappingURL=project.css.map */

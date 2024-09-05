@@ -2,7 +2,7 @@
   cursor: pointer;
   display: inline-flex;
   gap: 8px;
-
+  grid-column: 1 ~'/' -1;
   &-switch {
     display: inline-block;
     background: fade(white, 25%);
@@ -69,8 +69,9 @@
 .dgi__project {
   &-grid {
     display: grid;
-    gap: 1em;
+    gap: 1rem;
     margin: 2em 0;
+
   }
   &-year {
     position: absolute;
@@ -96,6 +97,11 @@
   }
   &-image {
     position: relative;
+    img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
     &::after {
       content:"";
       position: absolute;
@@ -125,6 +131,20 @@
       color: var(--color-subtext);
       gap:8px;
     }
+  }
+}
+
+@media(min-width: 640px) {
+  .dgi__project-grid {
+    gap: 1.5rem;
+    grid-template-columns: repeat(2,1fr);
+  }
+}
+
+@media(min-width: 960px) {
+  .dgi__project-grid {
+    gap:2rem;
+    grid-template-columns: repeat(3,1fr);
   }
 }
 
