@@ -1,5 +1,5 @@
 import './header.css';
-import ai from '../../assets/ai.png';
+import ai from '../../assets/ai.webp';
 
 const Header = () => {
     return (
@@ -15,7 +15,7 @@ const Header = () => {
                 </p>
             </div>
             <div className="dgi__header-image">
-                <img src={ai}/>
+                <img src={ai} width="640" height="646" alt="Gesicht mit AI generiert" />
             </div>
         </div>
     )
