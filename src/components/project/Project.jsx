@@ -17,7 +17,7 @@ const Project = () => {
               <div className="dgi__project-card" data-category={p.projektart} key={i}>
                   <div className="dgi__project-image">
                       <a href={p.url} target="_blank" title={p.name}>
-                          <img src={p.img} alt={p.name}/>
+                          <img src={p.img} alt={p.name} loading="lazy" decoding="async" />
                       </a>
                   </div>
                   <div className="dgi__project-info">
