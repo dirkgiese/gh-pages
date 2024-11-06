@@ -30,6 +30,7 @@ body {
   min-width: 320px;
   min-height: 100vh;
   color:white;
+  background-color: #040C18;
 }
 #root {
   flex:1;
