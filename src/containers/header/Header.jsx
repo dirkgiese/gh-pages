@@ -1,8 +1,8 @@
 import './header.css';
-import ai from '../../assets/ai.webp';
+import ai from '../../assets/ai2.webp';
 
 const Header = () => {
-    return (
+    return 2
         <div className="dgi__header section__padding" id="home">
             <div className="dgi__header-content">
                 <h1 className="gradient__text">Web&shy;design in Aktion </h1>
