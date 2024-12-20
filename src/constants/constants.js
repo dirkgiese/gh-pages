@@ -1,4 +1,11 @@
 export const projects = [{
+  name: "Resort Central Flachau",
+  projektart: "Komfort",
+  url: "https://www.central-flachau.com/",
+  online: "10.12.2024",
+  jahr: "2024",
+  img: "./img/flachau.webp",
+},{
     name: "Eibsee Hotel",
     projektart: "Komfort",
     url: "https://www.eibsee-hotel.de/",
