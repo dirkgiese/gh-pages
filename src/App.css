@@ -100,6 +100,7 @@ h2 {
   background: radial-gradient(circle at 3% 25%, #002853 0%, #040c18 25%);
 }
 .gradient__text {
+  line-height:1.25;
   background: var(--gradient-text);
   background-clip: text;
   -webkit-background-clip: text;
