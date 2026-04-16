@@ -13,6 +13,12 @@ const Header = () => {
                     Webanwendungen spezialisiert. Ich bin ein kreativer Kopf und liebe es, neue Ideen zu entwickeln und
                     diese in die Tat umzusetzen.
                 </p>
+                <p>
+                    In meiner Freizeit trainiere ich leidenschaftlich Arnis. Um mein Training zu unterstützen, habe ich eine kleine React-App entwickelt. 
+                    Da ich mich auch total für 3D-Webdesign begeistere, konnte ich es mir nicht nehmen lassen, mit Three.js zu experimentieren. 
+                    Schaut euch das Ergebnis gerne mal an:<br/>
+                    <a href="https://fca.dirkgiese.info/" target="_blank">fca.dirkgiese.info</a>
+                </p>
             </div>
             <div className="dgi__header-image">
                 <img src={ai} width="640" height="646" alt="Gesicht mit AI generiert" />
