@@ -16,8 +16,8 @@ const Header = () => {
                 <p>
                     In meiner Freizeit trainiere ich leidenschaftlich Arnis. Um mein Training zu unterstützen, habe ich eine kleine React-App entwickelt. 
                     Da ich mich auch total für 3D-Webdesign begeistere, konnte ich es mir nicht nehmen lassen, mit Three.js zu experimentieren. 
-                    Schaut euch das Ergebnis gerne mal an:<br/>
-                    <a href="https://fca.dirkgiese.info/" target="_blank">fca.dirkgiese.info</a>
+                    Schaut euch das Ergebnis gerne mal an:<br/><br/>
+                    <a href="https://fca.dirkgiese.info/" target="_blank" style={{ color:'#ff8a71'}}>fca.dirkgiese.info</a>
                 </p>
             </div>
             <div className="dgi__header-image">
