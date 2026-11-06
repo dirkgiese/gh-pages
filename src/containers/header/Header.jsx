@@ -5,18 +5,13 @@ const Header = () => {
     return (
         <div className="dgi__header section__padding" id="home">
             <div className="dgi__header-content">
-                <h1 className="gradient__text">Web&shy;design in Aktion </h1>
-                <h2>Einige Projekte eines erfahrenen Frontend
-                    Entwicklers</h2>
+                <h1 className="gradient__text">Kreativer Code &amp; digitale Spielwiesen</h1>
                 <p>
-                    Ich bin ein Webentwickler aus Leidenschaft und habe mich auf die Entwicklung von Webseiten und
-                    Webanwendungen spezialisiert. Ich bin ein kreativer Kopf und liebe es, neue Ideen zu entwickeln und
-                    diese in die Tat umzusetzen.
+                    Ich liebe es, Webseiten und Webanwendungen zu entwickeln, die mehr sind als nur statischer Inhalt. 
+                    Für mich ist Frontend-Entwicklung eine ständige Entdeckungsreise – sei es beim Experimentieren mit neuen Frameworks, dem Ausloten von 3D-Webdesign mit Three.js oder dem Bauen kleiner, nützlicher Tools für meine Hobbys wie Arnis.
                 </p>
                 <p>
-                    In meiner Freizeit trainiere ich leidenschaftlich Arnis. Um mein Training zu unterstützen, habe ich eine kleine React-App entwickelt. 
-                    Da ich mich auch total für 3D-Webdesign begeistere, konnte ich es mir nicht nehmen lassen, mit Three.js zu experimentieren. 
-                    Schaut euch das Ergebnis gerne mal an:<br/><br/>
+                   Schaut euch gerne eines meiner aktuellen Experimente an::<br/><br/>
                     <a href="https://fca.dirkgiese.info/" target="_blank" style={{ color:'#ff8a71'}}>fca.dirkgiese.info</a>
                 </p>
             </div>
